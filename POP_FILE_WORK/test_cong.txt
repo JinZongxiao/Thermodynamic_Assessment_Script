@@ -1,0 +1,9 @@
+type(inva or cong):cong
+Phase1(split with ','):Liquid,
+Phase2(split with ','):CuTi2
+Phase3(end):
+T:1288
+Condition_cong:X(Liquid,Ti)-X(CuTi2,Ti)=0
+exp1:X(Liquid,Ti)=0.667
+exp2:
+exp3:

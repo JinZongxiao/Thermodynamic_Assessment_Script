@@ -5,6 +5,7 @@
 # @Software : PyCharm
 
 data = []
+#input file shout be enter into this for
 for line in open("TDB_dir/test_inva.txt", "r", encoding='utf-8'):
     #index = line.find(':')+1
     #line = line[index:]
@@ -29,6 +30,7 @@ if data[0] == 'cong':
     line5 = 'Set_Condition' + condition_Congruent + '\n'
     line6 = 'Experiment T=' + EXP_T + '\n'
     line7 = 'Experiment' + EXP_1 + '\n'
+    #output path
     path = 'D:\\pythonProject\\CuTiProject\\TDB_dir\\out.txt'
     with open(path,'a+',encoding='utf-8') as f:
         f.write(line1_const)
@@ -39,8 +41,6 @@ if data[0] == 'cong':
         f.write(line6)
         f.write(line7)
         f.close()
-
-
 else:
     Phase1 = data[1]
     Phase2 = data[2]
@@ -57,6 +57,7 @@ else:
     line6 = 'Experiment' + EXP_1 + '\n'
     line7 = 'Experiment' + EXP_2 + '\n'
     line8 = 'Experiment' + EXP_3 + '\n'
+    #output path
     path = 'D:\\pythonProject\\CuTiProject\\TDB_dir\\out_inva.txt'
     with open(path,'a+',encoding='utf-8') as f:
         f.write(line1_const)

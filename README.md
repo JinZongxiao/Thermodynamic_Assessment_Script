@@ -4,3 +4,7 @@ Some code I wrote for Calphad optimization
 ### TDB FILE
 
 ### POP FILE
+
+## 2.datasets processing for ML
+
+## 3.others
